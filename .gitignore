@@ -1,0 +1,14 @@
+tmp
+node_modules
+
+.idea
+.DS_Store
+
+.terraform
+.terraform.lock.hcl
+terraform.tfvars
+
+*.backup
+*.lock.info
+*.lock.hcl
+*.tfstate
