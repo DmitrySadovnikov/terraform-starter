@@ -1,7 +1,7 @@
-# Blog API Example
+# Blog Example
 # This creates a serverless blog with DynamoDB for posts and S3 for images
 
-module "blog_api" {
+module "blog" {
   source       = "../../modules/serverless"
   project_name = "blog"
 
@@ -29,7 +29,7 @@ module "blog_api" {
   # domain_name = "example.com"
 
   tags = {
-    Example     = "blog-api"
+    Example     = "blog"
     Environment = "demo"
   }
 }

@@ -1,4 +1,4 @@
-# Blog API Example
+# Blog Example
 
 A full-featured serverless blog with HTML templating, DynamoDB storage, and S3 image uploads.
 
@@ -51,7 +51,7 @@ This example creates:
 The configuration automatically creates all necessary resources:
 
 ```hcl
-module "blog_api" {
+module "blog" {
   source       = "../../modules/serverless"
   project_name = "blog"
   
@@ -81,7 +81,7 @@ module "blog_api" {
 Add a custom domain for your blog:
 
 ```hcl
-module "blog_api" {
+module "blog" {
   source       = "../../modules/serverless"
   project_name = "blog"
   domain_name  = "your-domain.com"

@@ -157,7 +157,7 @@ This architecture automatically scales:
 
 ## 🔗 Related Examples
 
-- [Blog API](../blog/) - Full-featured blog with database
+- [Blog](../blog/) - Full-featured blog with database
 - [Telegram Bot](../telegram_bot/) - Bot with webhook handling
 
 ---

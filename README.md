@@ -14,7 +14,7 @@ This starter is valuable for SaaS and startups that need quick prototyping with 
 
 2. **Choose an example**
    - [Simple Landing Page](examples/simple_landing/) - Basic HTML page
-   - [Blog API](examples/blog/) - Full-featured blog with database and file storage
+   - [Blog](examples/blog/) - Full-featured blog with database and file storage
    - [Telegram Bot](examples/telegram_bot/) - Serverless bot with webhooks and scheduling
 
 3. **Deploy**
@@ -33,7 +33,7 @@ terraform-starter/
 │   └── bucket/          # S3 bucket module
 └── examples/
     ├── simple_landing/  # Basic website example
-    ├── blog/            # Blog API with database
+    ├── blog/            # Blog with database
     └── telegram_bot/    # Telegram bot example
 ```
 
@@ -56,7 +56,7 @@ Perfect for static websites and landing pages.
 - ✅ Custom domain support
 - ✅ CDN-ready
 
-### [Blog API](examples/blog/)
+### [Blog](examples/blog/)
 Full-featured blog with HTML templates and REST API.
 - ✅ Create, read, and list blog posts
 - ✅ Image upload to S3

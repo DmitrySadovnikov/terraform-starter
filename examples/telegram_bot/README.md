@@ -237,7 +237,7 @@ Extend your bot with these features:
 ## 🔗 Related Examples
 
 - [Simple Landing](../simple_landing/) - Basic static website
-- [Blog API](../blog/) - Full-featured blog with database
+- [Blog](../blog/) - Full-featured blog with database
 
 ---
 
