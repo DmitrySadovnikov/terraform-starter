@@ -4,11 +4,13 @@ A production-ready Terraform boilerplate for building serverless APIs on AWS. Th
 
 This starter is valuable for SaaS and startups that need quick prototyping with a minimum budget (less than $1 a month per project).
 
+[![Watch the video](https://github.com/user-attachments/assets/f0ee1ea0-7f18-4565-83f9-a450141d82ee)](https://youtu.be/Kty_2gO_hvA)
+
 ## 🚀 Quick Start
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:DmitrySadovnikov/terraform-starter.git
    cd terraform-starter
    ```
 
