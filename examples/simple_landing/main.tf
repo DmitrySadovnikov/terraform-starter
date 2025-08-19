@@ -20,8 +20,3 @@ module "simple_landing" {
     Environment = "demo"
   }
 }
-
-moved {
-  from = module.server
-  to   = module.simple_landing
-}

@@ -33,8 +33,3 @@ module "blog_api" {
     Environment = "demo"
   }
 }
-
-moved {
-  from = module.server
-  to   = module.blog_api
-}

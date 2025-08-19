@@ -6,11 +6,6 @@ locals {
   cron_hello_path = "/cron/hello"
 }
 
-moved {
-  from = module.api
-  to = module.telegram_bot
-}
-
 module "telegram_bot" {
   source       = "../../modules/serverless"
   project_name = "telegram-bot"
