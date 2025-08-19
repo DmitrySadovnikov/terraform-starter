@@ -13,6 +13,18 @@ resource "aws_route53_zone" "this" {
   tags = var.tags
 }
 
+resource "null_resource" "ns_records" {
+  provisioner "local-exec" {
+    command = "echo 'NS records for ${aws_route53_zone.this.name}:' && echo '${join("\n", aws_route53_zone.this.name_servers)}'"
+  }
+
+  triggers = {
+    domain_name = aws_route53_zone.this.name
+  }
+
+  depends_on = [aws_route53_zone.this]
+}
+
 resource "aws_route53_record" "validation" {
   for_each = {
     for dvo in aws_acm_certificate.this.domain_validation_options : dvo.domain_name => {
